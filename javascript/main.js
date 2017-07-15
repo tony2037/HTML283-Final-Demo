@@ -19,4 +19,11 @@ $(document).ready(function(){
     };
 
     paper.view.draw();
+
+    //
 });
+
+function changeHtml(content,id){
+    let event = document.getElementById(id);
+    event.innerHTML = content;
+};
