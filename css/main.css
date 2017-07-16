@@ -8,12 +8,26 @@
 html{
     text-align: center;
     vertical-align: middle;
+    background-image:url('../images/f_4141840_1.jpg');
 }
 
+body{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#container{
+    background: white;
+}
 
 #greeting{
     font-size: 3em;
+    font-family: monospace;
+    font-weight: 900;
+    word-spacing: 15px;
+    color: rgba(19, 13, 14, 0.7);
     border: width 1em black;
+    
+
 }
 
 li{
@@ -23,4 +37,17 @@ li{
 
 #whoami{
     font-family: serif;
+}
+
+h1,h2,h3{
+    font-family: serif;
+    font-size: 2em;
+    font-weight: 800;
+    word-spacing: 15px;
+    color: rgba(50,6,1,0.9);
+}
+
+a,p{
+    font-size: 1.5em;
+    font-family: sans-serif;
 }
