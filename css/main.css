@@ -4,11 +4,16 @@
     border: solid 1px black;
 }
 
+*{
+    box-sizing: border-box;
+}
 
 html{
     text-align: center;
     vertical-align: middle;
     background-image:url('../images/f_4141840_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body{
@@ -21,7 +26,7 @@ body{
 
 #greeting{
     font-size: 3em;
-    font-family: monospace;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
     font-weight: 900;
     word-spacing: 15px;
     color: rgba(19, 13, 14, 0.7);
