@@ -20,8 +20,25 @@ body{
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-#container{
+.container{
     background: white;
+    padding: 20px,40px;
+    border: 2px solid black;
+    margin: 10%;
+}
+
+.jumbotron{
+    background: white;
+    padding: 20px,40px;
+    border: 2px solid black;
+    margin: 10%;
+}
+
+.thumbnail{
+    background: white;
+    padding: 20px,40px;
+    border: 2px solid black;
+    margin: 10%;
 }
 
 #greeting{
@@ -55,4 +72,28 @@ h1,h2,h3{
 a,p{
     font-size: 1.5em;
     font-family: sans-serif;
+}
+
+.ProjectsList{
+    list-style-image: url("../images/githubicon.png");
+    list-style-type: lower-alpha;
+}
+
+
+ul.Projects{
+    font-size: 2em;
+    color: blue;
+}
+
+ul.Projects li{
+    font-size: 0.5em;
+    color: red;
+    background-color: yellowgreen;
+    text-align: center;
+    width: 100px;
+    display: none;
+}
+
+ul.Projects:hover li{
+    display: block;
 }
