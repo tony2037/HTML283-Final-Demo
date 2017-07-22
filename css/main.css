@@ -92,8 +92,49 @@ ul.Projects li{
     text-align: center;
     width: 100px;
     display: none;
+    list-style-image: url('../images/githubicon.png');
 }
 
 ul.Projects:hover li{
     display: block;
+    list-style-image: url('../images/githubicon.png');
+}
+
+.author {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.author img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.author h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.author p {
+    text-align: left;
+}
+
+.sitescollections{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid sandybrown;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sitescollections img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
