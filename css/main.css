@@ -18,6 +18,16 @@ html{
 
 body{
     background-color: rgba(255, 255, 255, 0.6);
+    
+}
+
+header{
+    width: 50%;
+    background-color: black;
+    clear: both;
+    overflow: auto;
+    text-align: right;
+    float: right;
 }
 
 .container{
@@ -25,6 +35,7 @@ body{
     padding: 20px,40px;
     border: 2px solid black;
     margin: 10%;
+    overflow: auto;
 }
 
 .jumbotron{
@@ -42,7 +53,7 @@ body{
 }
 
 #greeting{
-    font-size: 3em;
+    font-size: 2em;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,STHeiti,"Microsoft Yahei",sans-serif;
     font-weight: 900;
     word-spacing: 15px;
@@ -133,10 +144,57 @@ ul.Projects:hover li{
     border: 1px solid sandybrown;
     border-radius: 10px;
     padding: 10px;
+    clear: both;
 }
 
 .sitescollections img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+footer, footer .box{
+    border: 1px solid black;
+    text-align: center;
+    margin: 5% auto;
+}
+
+footer .box{
+    float: left;
+    margin: 5% auto;
+    width: calc(90%/3);
+    text-align: center;
+    display: table;
+    color: white;
+    padding: 10px;
+}
+
+footer h3{
+    color: silver;
+}
+
+footer{
+    margin: 0 auto;
+}
+
+.boxcontainer{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1%;
+    overflow: auto;
+}
+
+.outline{
+    width: 100%;
+    float: right;
+    clear: both;
+    margin: auto;
+    text-align: center;
+}
+
+
+section{
+    margin: 0 auto;
 }
