@@ -83,6 +83,7 @@ a,p{
 ul.Projects{
     font-size: 2em;
     color: blue;
+    list-style-image: url('../images/pseudo-element-bullet-featured.png');
 }
 
 ul.Projects li{
@@ -92,12 +93,13 @@ ul.Projects li{
     text-align: center;
     width: 100px;
     display: none;
-    list-style-image: url('../images/githubicon.png');
+    list-style : lower-alpha;
+    text-align: center;
+    margin: 0 auto;
 }
 
 ul.Projects:hover li{
     display: block;
-    list-style-image: url('../images/githubicon.png');
 }
 
 .author {
