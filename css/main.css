@@ -22,12 +22,15 @@ body{
 }
 
 header{
-    width: 50%;
+    width: 100%;
     background-color: black;
     clear: both;
     overflow: auto;
     text-align: right;
     float: right;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .container{
@@ -197,4 +200,35 @@ footer{
 
 section{
     margin: 0 auto;
+}
+
+.Contact section h2{
+    font-size: 2em;
+}
+
+.Contact section p{
+    font-size: 1em;
+}
+
+.Contact section a{
+    font-size: 1em;
+}
+
+.outline_About,.outline_Project,.outline_Contact{
+    float: left;
+    margin: auto;
+    text-align: center;
+    width: calc(100%/3);
+}
+
+.aboutIndex h3,.projectIndex h3,.contactIndex h3{
+    font-size: 1em;
+}
+
+.aboutIndex,.projectIndex,.contactIndex{
+    display: none;
+}
+
+article,footer{
+    padding: 150px;
 }

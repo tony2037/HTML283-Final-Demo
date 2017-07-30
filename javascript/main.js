@@ -21,6 +21,17 @@ $(document).ready(function(){
     paper.view.draw();
 
     //
+    $(".aboutTitle").hover(function(){
+        $(".aboutIndex").slideToggle();
+    });
+
+    $(".projectTitle").hover(function(){
+        $(".projectIndex").slideToggle();
+    });
+
+    $(".contactTitle").hover(function(){
+        $(".contactIndex").slideToggle();
+    });
 });
 
 function changeHtml(content,id){
