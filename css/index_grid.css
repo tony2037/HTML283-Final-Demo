@@ -249,3 +249,29 @@ html,body{
 .thumbnail img{
     width: 100%;
 }
+
+
+
+html{
+    background-image: url("../images/ChengKunguniversity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+header .container .row:nth-child(2){
+    display: none;
+}
+
+article,footer{
+    margin: 100px;
+}
