@@ -1,9 +1,5 @@
 *{box-sizing: border-box;}
 
-*{
-    border: 1px solid black;
-}
-
 html{
     background-image: url('../images/profile_background.jpg');
     background-repeat: no-repeat;
@@ -79,4 +75,41 @@ footer *{
     left: 15px;
     top: 6px;
     font-size: 30px;
+}
+
+header{
+    background-image: url("../images/anastasia-taioglou-244880.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(200, 200, 200, 0.9);
+    box-shadow: 10px 5px #888888;
+}
+
+section.social{
+    background-image: url("../images/igor-ovsyannykov-329202.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.social *{
+    color: rgba(6, 113, 230, 1);
+}
+
+section.projects{
+    background-image: url("../images/ian-dooley-280194.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+section.projects{
+    color: rgba(0, 0, 0, 1);
+}
+
+section.experience{
+    background-image: url("../images/nick-karvounis-156110.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255,0.5)
 }
