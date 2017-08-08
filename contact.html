@@ -11,9 +11,9 @@
     <script src="./javascript/contact.js"></script>
 </head>
 <body>
-    <form name="feedBack" method="post">
-        <input id="name" type="text" name="name" value="" placeholder="Please put your name">
-        <textarea id="feedBack" rows="20" cols="" placeholder="Please put your feedback"></textarea>
+    <form method="post" action="./php/Contact-report.php">
+        <input id="name" type="text" name="fname" value="" placeholder="Please put your name">
+        <textarea id="feedBack" rows="20" cols="" placeholder="Please put your feedback" name="feedback"></textarea>
         <input id="submit" type="submit">
     </form>
 </body>

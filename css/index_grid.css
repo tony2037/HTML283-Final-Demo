@@ -7,6 +7,9 @@ html,body{
 
 .row{
     border: 5px solid red;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .row::after{
@@ -23,6 +26,7 @@ html,body{
 
 .container{
     margin: 0 auto;
+    padding: 0;
 }
 
 @media screen and (max-width:768px){
@@ -259,7 +263,9 @@ html{
 }
 
 section{
-    background-color: rgba(255, 255, 255, 0.5)
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    width: 100%;
 }
 
 header{
@@ -274,4 +280,52 @@ header .container .row:nth-child(2){
 
 article,footer{
     margin: 100px;
+}
+
+header,article,footer{
+    padding: 0;
+}
+
+[class^=col-] p{
+    width: 100%;
+}
+
+.icon img{
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+    border-radius: 50%;
+}
+
+section.section-odd{
+    background-color: rgba(160, 160, 160, 0.7);
+}
+
+section.section-even{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+section.section-tutorial{
+    background-color: rgba(200, 200, 200, 1);
+    box-shadow: 10px 10px 5px #888888;
+}
+
+footer{
+    padding: 0;
+    margin: 0 auto;
+}
+
+footer section{
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.1);
+    background-image: url("../images/alejandro-escamilla-22.jpg");
+    background-size: cover;
+}
+
+.row{
+    border: 0;
+}
+
+[class^=col-]{
+    border: 0;
 }

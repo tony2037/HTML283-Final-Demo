@@ -7,3 +7,8 @@ $(document).ready(function(){
         $("header").slideToggle("slow");
     });
 });
+
+function changeHtml(content,id){
+    let event = document.getElementById(id);
+    event.innerHTML = content;
+};
